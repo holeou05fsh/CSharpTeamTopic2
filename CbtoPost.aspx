@@ -9,7 +9,7 @@
                 <div class="post" runat="server">
                     <div class="postP">
                         <asp:PlaceHolder runat="server" Visible='<%# !string.IsNullOrWhiteSpace(Eval("CoverImage") as string)%>'>
-                            <img id="imgPostP" src="<%# Eval("CoverImage") as string%>" width="320" height="320" />
+                            <img id="imgPostP" src="<%# Eval("CoverImage") as string%>" width="300" height="320" />
                         </asp:PlaceHolder>
                         <%--<img ID="imgPostP" src="<%# (!string.IsNullOrWhiteSpace(Eval("CoverImage") as string))?Eval("CoverImage"):""%>" width="200" height="200"/>--%>
                     </div>
